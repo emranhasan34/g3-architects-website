@@ -85,3 +85,34 @@
       flex-direction: column;
     }
   }
+  /* main reated styles */
+/* main{
+  max-width: 1440px;
+  margin: 0 auto;
+} */
+/* teams styles */
+  .tems-container{
+    display: flex;
+    align-items: center;
+
+  }
+  .tems-img-containerd{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+.tems-content{
+ padding-left: 70px;
+  padding-right: 70px;
+}
+.tems-title{
+  font-size: 2.8rem;
+}
+.rems-title .Quick-title{
+  color: #727272;
+  font-weight: 500;
+}
+.rems-title .text-profile{
+  color: #FF900E;
+  width: 700;
+}
