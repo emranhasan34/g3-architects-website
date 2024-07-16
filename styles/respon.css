@@ -10,7 +10,6 @@
   .text-light-gray{
     color: #727272;
   }
-  /* header styles */
   .btn-primary{
     border-radius: 8px;
     color: #fff;
@@ -21,6 +20,14 @@
     cursor: pointer;
     border: 0;
   }
+
+  .section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+  }
+  /* header styles */
+
   header{
     background: #ff88001a;
     padding: 50px 240px;
@@ -30,11 +37,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-  }
+
   nav > ul{
     display: flex;
 
