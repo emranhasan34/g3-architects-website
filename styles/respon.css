@@ -140,8 +140,12 @@ nav li a {
   padding: 30px;
   margin-bottom: 20px;
   border-radius: 10px;
-  background: #62ff0e;
+  background: #f6ff00;
   box-shadow: 0px 4px 30px 0px;
+}
+.features-img img{
+  height: 90%;
+  margin-left: 50px;
 }
 
  .ten-year-badge {
@@ -150,9 +154,17 @@ nav li a {
   color: #fff;
    width: 342px;
    padding: 40px;
+   position: relative;
+   bottom: 100px;
+   text-align: center;
+   
 }
 .ten-year-badge h2{
   font-size: 4rem;
+  margin: 0;
+}
+.ten-year-badge p{
+ font-size: 1.5rem;
 }
 /* facts section styles */
 .feats .feat-item {
@@ -202,6 +214,33 @@ nav li a {
 .sponsors-img-container img {
   width: 165px;
 }
+/* footer styles */
+/* footer styles */
+footer{
+  display: flex;
+  gap: 100px;
+  background: #005eff;
+  margin-top: 100px;
+  padding: 130px 230px;
+}
+.footer-colume{
+  width: 50%;
+}
+.social-link a{
+  margin-left: 25px;
+}
+.contact input[type="text"], [type="emaill"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #06ffb9;
+  border: 0;
+  width: 70%;
+
+}
+
 
 
 /* responsive media quary */
@@ -211,12 +250,24 @@ nav li a {
   header {
     padding: 20px;
   }
-
+  footer{
+    display: block;
+     
+  }
   nav,
   .tems-container,
+  .features,
   .facts-card-container,
   .sponsors-img-container {
     flex-direction: column;
+  }
+  .features-img img{
+    width: 90%;
+    margin-left: 0;
+  }
+  .ten-year-badge{
+    position: static;
+    max-width: 300px;
   }
 
   .tems-img-container {
@@ -232,6 +283,7 @@ nav li a {
   .facts-card-container {
     gap: 20px;
   }
+  
 }
 
 /* tablet devices */
@@ -241,8 +293,10 @@ nav li a {
   }
 
   nav,
+  .features,
   .tems-container,
-  .sponsors-img-container {
+  .sponsors-img-container,
+  .footer-section {
     flex-direction: column;
   }
 
