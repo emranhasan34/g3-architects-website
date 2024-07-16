@@ -133,8 +133,20 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-
+/* sponsors section */
+.sponsors{
+  text-align: center;
+}
+  .sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 20px;
+}
+.sponsors-img-container img{
+  width: 165px;
+}
 
 
 /* responsive media quary */
@@ -146,7 +158,8 @@
   }
   nav,
   .tems-container,
-  .facts-card-container
+  .facts-card-container,
+  .sponsors-img-container
   {
     flex-direction: column;
   }
@@ -168,7 +181,8 @@
     padding: 50px;
   }
   nav,
-  .tems-container
+  .tems-container,
+  .sponsors-img-container
   {
     flex-direction: column;
   }
